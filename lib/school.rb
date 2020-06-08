@@ -7,7 +7,7 @@ class School
   end
   
   def 
-    if roster[grade]
+    if roster[grade]add_student(name, grade)
     roster[grade] << name
     else 
       roster[grade] = [name]
